@@ -36,7 +36,6 @@ D:\Projekti\rentACar-internship\Praksa.DAL\bin\Debug\netcoreapp3.1\Praksa.DAL.ru
 D:\Projekti\rentACar-internship\Praksa.DAL\bin\Debug\netcoreapp3.1\Praksa.DAL.runtimeconfig.dev.json
 D:\Projekti\rentACar-internship\Praksa.DAL\bin\Debug\netcoreapp3.1\Praksa.DAL.dll
 D:\Projekti\rentACar-internship\Praksa.DAL\bin\Debug\netcoreapp3.1\Praksa.DAL.pdb
-D:\Projekti\rentACar-internship\Praksa.DAL\obj\Debug\netcoreapp3.1\Praksa.DAL.csprojAssemblyReference.cache
 D:\Projekti\rentACar-internship\Praksa.DAL\obj\Debug\netcoreapp3.1\Praksa.DAL.AssemblyInfoInputs.cache
 D:\Projekti\rentACar-internship\Praksa.DAL\obj\Debug\netcoreapp3.1\Praksa.DAL.AssemblyInfo.cs
 D:\Projekti\rentACar-internship\Praksa.DAL\obj\Debug\netcoreapp3.1\Praksa.DAL.csproj.CoreCompileInputs.cache

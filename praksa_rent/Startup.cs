@@ -34,6 +34,7 @@ namespace praksa_rent
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<ICarRepository, CarRepository>();
             services.AddScoped<IContactRepository, ContactRepository>();
+            services.AddScoped<IReviewRepository, ReviewRepository>();
 
         }
 

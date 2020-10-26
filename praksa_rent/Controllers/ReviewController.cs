@@ -15,23 +15,23 @@ namespace praksa_rent.Controllers
 {
     [Route("api/[controller]/[action]")]
     [ApiController]
-    public class ContactController : Controller
+    public class ReviewController : Controller
     {
-        private readonly IContactRepository _contactRepository;
+        private readonly IReviewRepository _reviewRepository;
 
-        public ContactController(IContactRepository contactRepository)
+        public ReviewController(IReviewRepository reviewRepository)
         {
-            _contactRepository = contactRepository;
+            _reviewRepository = reviewRepository;
         }
 
         [HttpGet]
         public async Task<IActionResult> Get()
         {
-            var contacts = await _contactRepository.GetContacts();
-            return Ok(contacts);
+            var reviews = await _reviewRepository.GetReviews();
+            return Ok(reviews);
         }
 
-    
-     
+
+
     }
 }
