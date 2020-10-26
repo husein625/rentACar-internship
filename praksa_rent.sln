@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30225.117
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "praksa_rent", "praksa_rent\praksa_rent.csproj", "{6C4B7540-EC82-4F01-B784-CE10533D9CBF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Praksa.DAL", "Praksa.DAL\Praksa.DAL.csproj", "{DF4CC2FF-1E48-4D52-AE26-738CD8D5C8F7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6C4B7540-EC82-4F01-B784-CE10533D9CBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C4B7540-EC82-4F01-B784-CE10533D9CBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C4B7540-EC82-4F01-B784-CE10533D9CBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C4B7540-EC82-4F01-B784-CE10533D9CBF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4CC2FF-1E48-4D52-AE26-738CD8D5C8F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4CC2FF-1E48-4D52-AE26-738CD8D5C8F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4CC2FF-1E48-4D52-AE26-738CD8D5C8F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4CC2FF-1E48-4D52-AE26-738CD8D5C8F7}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4348139-EEE1-47C3-92B3-F9CFCFCB41A8}
+	EndGlobalSection
+EndGlobal
