@@ -20,7 +20,7 @@ namespace Praksa.DAL.Configuration
                 {
                     Id=1,
                      CreatedAt=DateTime.Now,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
                     RoleId=1,
                     UserId=1
                 },
@@ -28,7 +28,7 @@ namespace Praksa.DAL.Configuration
                 {
                     Id=2,
                      CreatedAt=DateTime.Now,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
                     RoleId=2,
                     UserId=2
                 }

@@ -1,24 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ajdin\\Documents\\GitHub\\infinitymesh_internship\\rent_a_car\\Praksa.DAL\\Praksa.DAL.csproj": {}
+    "D:\\Projekti\\rentACar-internship\\Praksa.DAL\\Praksa.DAL.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ajdin\\Documents\\GitHub\\infinitymesh_internship\\rent_a_car\\Praksa.DAL\\Praksa.DAL.csproj": {
+    "D:\\Projekti\\rentACar-internship\\Praksa.DAL\\Praksa.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ajdin\\Documents\\GitHub\\infinitymesh_internship\\rent_a_car\\Praksa.DAL\\Praksa.DAL.csproj",
+        "projectUniqueName": "D:\\Projekti\\rentACar-internship\\Praksa.DAL\\Praksa.DAL.csproj",
         "projectName": "Praksa.DAL",
-        "projectPath": "C:\\Users\\ajdin\\Documents\\GitHub\\infinitymesh_internship\\rent_a_car\\Praksa.DAL\\Praksa.DAL.csproj",
-        "packagesPath": "C:\\Users\\ajdin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ajdin\\Documents\\GitHub\\infinitymesh_internship\\rent_a_car\\Praksa.DAL\\obj\\",
+        "projectPath": "D:\\Projekti\\rentACar-internship\\Praksa.DAL\\Praksa.DAL.csproj",
+        "packagesPath": "C:\\Users\\Dzenana\\.nuget\\packages\\",
+        "outputPath": "D:\\Projekti\\rentACar-internship\\Praksa.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\ajdin\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "C:\\Users\\Dzenana\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -75,7 +76,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace Praksa.DAL.Migrations
 {
-    public partial class init : Migration
+    public partial class InitialMigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -218,9 +218,9 @@ namespace Praksa.DAL.Migrations
                 columns: new[] { "Id", "CreatedAt", "CreatedBy", "Name" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2020, 10, 23, 6, 12, 29, 693, DateTimeKind.Utc).AddTicks(1208), "ajdintbk", "Tuzla" },
-                    { 2, new DateTime(2020, 10, 23, 6, 12, 29, 693, DateTimeKind.Utc).AddTicks(2479), "ajdintbk", "Sarajevo" },
-                    { 3, new DateTime(2020, 10, 23, 6, 12, 29, 693, DateTimeKind.Utc).AddTicks(2501), "ajdintbk", "Mostar" }
+                    { 1, new DateTime(2020, 10, 26, 22, 13, 36, 915, DateTimeKind.Utc).AddTicks(3390), "hmuftic", "Tuzla" },
+                    { 2, new DateTime(2020, 10, 26, 22, 13, 36, 915, DateTimeKind.Utc).AddTicks(4406), "hmuftic", "Sarajevo" },
+                    { 3, new DateTime(2020, 10, 26, 22, 13, 36, 915, DateTimeKind.Utc).AddTicks(4423), "hmuftic", "Mostar" }
                 });
 
             migrationBuilder.InsertData(
@@ -228,29 +228,29 @@ namespace Praksa.DAL.Migrations
                 columns: new[] { "Id", "CreatedAt", "CreatedBy", "Name" },
                 values: new object[,]
                 {
-                    { 1, new DateTime(2020, 10, 23, 8, 12, 29, 703, DateTimeKind.Local).AddTicks(9371), "ajdintbk", "Administrator" },
-                    { 2, new DateTime(2020, 10, 23, 8, 12, 29, 710, DateTimeKind.Local).AddTicks(5270), "ajdintbk", "Client" }
+                    { 1, new DateTime(2020, 10, 26, 23, 13, 36, 921, DateTimeKind.Local).AddTicks(1), "hmuftic", "Admin" },
+                    { 2, new DateTime(2020, 10, 26, 23, 13, 36, 923, DateTimeKind.Local).AddTicks(5034), "hmuftic", "User" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Address", "CityId", "CreatedAt", "CreatedBy", "DatOfBirth", "Email", "Name", "Password", "Surname", "Username" },
-                values: new object[] { 1, "IM 27", 1, new DateTime(2020, 10, 23, 6, 12, 29, 701, DateTimeKind.Utc).AddTicks(7448), "ajdintbk", new DateTime(1998, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified), "tabakajdin@gmail.com", "Ajdin", "ajdin123", "Tabak", "ajdintbk" });
+                values: new object[] { 1, "Odred Sretno 2", 1, new DateTime(2020, 10, 26, 22, 13, 36, 919, DateTimeKind.Utc).AddTicks(7517), "hmuftic", new DateTime(1998, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified), "hmuftic@gmail.com", "Husein", "123123", "Muftic", "hmuftic" });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "Address", "CityId", "CreatedAt", "CreatedBy", "DatOfBirth", "Email", "Name", "Password", "Surname", "Username" },
-                values: new object[] { 2, "IM 28", 2, new DateTime(2020, 10, 23, 6, 12, 29, 701, DateTimeKind.Utc).AddTicks(7610), "ajdintbk", new DateTime(1998, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), "johneod@hotmail.com", "John", "john123", "Eod", "johne" });
+                values: new object[] { 2, "IM 28", 2, new DateTime(2020, 10, 26, 22, 13, 36, 919, DateTimeKind.Utc).AddTicks(7621), "hmuftic", new DateTime(1998, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified), "johneod@hotmail.com", "John", "john123", "Eod", "johne" });
 
             migrationBuilder.InsertData(
                 table: "UserRoles",
                 columns: new[] { "Id", "CreatedAt", "CreatedBy", "RoleId", "UserId" },
-                values: new object[] { 1, new DateTime(2020, 10, 23, 8, 12, 29, 715, DateTimeKind.Local).AddTicks(4494), "ajdintbk", 1, 1 });
+                values: new object[] { 1, new DateTime(2020, 10, 26, 23, 13, 36, 925, DateTimeKind.Local).AddTicks(9641), "hmuftic", 1, 1 });
 
             migrationBuilder.InsertData(
                 table: "UserRoles",
                 columns: new[] { "Id", "CreatedAt", "CreatedBy", "RoleId", "UserId" },
-                values: new object[] { 2, new DateTime(2020, 10, 23, 8, 12, 29, 715, DateTimeKind.Local).AddTicks(5865), "ajdintbk", 2, 2 });
+                values: new object[] { 2, new DateTime(2020, 10, 26, 23, 13, 36, 926, DateTimeKind.Local).AddTicks(665), "hmuftic", 2, 2 });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Bookings_CarId",

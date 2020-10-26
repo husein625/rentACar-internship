@@ -28,7 +28,6 @@ namespace praksa_rent.Controllers
         [HttpGet]
         public async Task GetById(int Id)
         {
-            var user = await _userRepository.GetById();
         }
 
 

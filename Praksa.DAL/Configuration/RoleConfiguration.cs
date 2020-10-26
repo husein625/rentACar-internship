@@ -17,17 +17,17 @@ namespace Praksa.DAL.Configuration
                 new Role
                 {
                     Id=1,
-                    Name="Administrator",
+                    Name="Admin",
                     CreatedAt=DateTime.Now,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 },
                 new Role
                 {
                     Id=2,
-                    Name="Client",
+                    Name="User",
                     CreatedAt=DateTime.Now,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 }
 

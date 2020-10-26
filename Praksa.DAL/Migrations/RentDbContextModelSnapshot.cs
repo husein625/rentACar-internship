@@ -124,22 +124,22 @@ namespace Praksa.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 10, 23, 6, 12, 29, 693, DateTimeKind.Utc).AddTicks(1208),
-                            CreatedBy = "ajdintbk",
+                            CreatedAt = new DateTime(2020, 10, 26, 22, 13, 36, 915, DateTimeKind.Utc).AddTicks(3390),
+                            CreatedBy = "hmuftic",
                             Name = "Tuzla"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 10, 23, 6, 12, 29, 693, DateTimeKind.Utc).AddTicks(2479),
-                            CreatedBy = "ajdintbk",
+                            CreatedAt = new DateTime(2020, 10, 26, 22, 13, 36, 915, DateTimeKind.Utc).AddTicks(4406),
+                            CreatedBy = "hmuftic",
                             Name = "Sarajevo"
                         },
                         new
                         {
                             Id = 3,
-                            CreatedAt = new DateTime(2020, 10, 23, 6, 12, 29, 693, DateTimeKind.Utc).AddTicks(2501),
-                            CreatedBy = "ajdintbk",
+                            CreatedAt = new DateTime(2020, 10, 26, 22, 13, 36, 915, DateTimeKind.Utc).AddTicks(4423),
+                            CreatedBy = "hmuftic",
                             Name = "Mostar"
                         });
                 });
@@ -250,16 +250,16 @@ namespace Praksa.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 10, 23, 8, 12, 29, 703, DateTimeKind.Local).AddTicks(9371),
-                            CreatedBy = "ajdintbk",
-                            Name = "Administrator"
+                            CreatedAt = new DateTime(2020, 10, 26, 23, 13, 36, 921, DateTimeKind.Local).AddTicks(1),
+                            CreatedBy = "hmuftic",
+                            Name = "Admin"
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 10, 23, 8, 12, 29, 710, DateTimeKind.Local).AddTicks(5270),
-                            CreatedBy = "ajdintbk",
-                            Name = "Client"
+                            CreatedAt = new DateTime(2020, 10, 26, 23, 13, 36, 923, DateTimeKind.Local).AddTicks(5034),
+                            CreatedBy = "hmuftic",
+                            Name = "User"
                         });
                 });
 
@@ -313,24 +313,24 @@ namespace Praksa.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            Address = "IM 27",
+                            Address = "Odred Sretno 2",
                             CityId = 1,
-                            CreatedAt = new DateTime(2020, 10, 23, 6, 12, 29, 701, DateTimeKind.Utc).AddTicks(7448),
-                            CreatedBy = "ajdintbk",
-                            DatOfBirth = new DateTime(1998, 7, 27, 0, 0, 0, 0, DateTimeKind.Unspecified),
-                            Email = "tabakajdin@gmail.com",
-                            Name = "Ajdin",
-                            Password = "ajdin123",
-                            Surname = "Tabak",
-                            Username = "ajdintbk"
+                            CreatedAt = new DateTime(2020, 10, 26, 22, 13, 36, 919, DateTimeKind.Utc).AddTicks(7517),
+                            CreatedBy = "hmuftic",
+                            DatOfBirth = new DateTime(1998, 10, 25, 0, 0, 0, 0, DateTimeKind.Unspecified),
+                            Email = "hmuftic@gmail.com",
+                            Name = "Husein",
+                            Password = "123123",
+                            Surname = "Muftic",
+                            Username = "hmuftic"
                         },
                         new
                         {
                             Id = 2,
                             Address = "IM 28",
                             CityId = 2,
-                            CreatedAt = new DateTime(2020, 10, 23, 6, 12, 29, 701, DateTimeKind.Utc).AddTicks(7610),
-                            CreatedBy = "ajdintbk",
+                            CreatedAt = new DateTime(2020, 10, 26, 22, 13, 36, 919, DateTimeKind.Utc).AddTicks(7621),
+                            CreatedBy = "hmuftic",
                             DatOfBirth = new DateTime(1998, 4, 23, 0, 0, 0, 0, DateTimeKind.Unspecified),
                             Email = "johneod@hotmail.com",
                             Name = "John",
@@ -371,16 +371,16 @@ namespace Praksa.DAL.Migrations
                         new
                         {
                             Id = 1,
-                            CreatedAt = new DateTime(2020, 10, 23, 8, 12, 29, 715, DateTimeKind.Local).AddTicks(4494),
-                            CreatedBy = "ajdintbk",
+                            CreatedAt = new DateTime(2020, 10, 26, 23, 13, 36, 925, DateTimeKind.Local).AddTicks(9641),
+                            CreatedBy = "hmuftic",
                             RoleId = 1,
                             UserId = 1
                         },
                         new
                         {
                             Id = 2,
-                            CreatedAt = new DateTime(2020, 10, 23, 8, 12, 29, 715, DateTimeKind.Local).AddTicks(5865),
-                            CreatedBy = "ajdintbk",
+                            CreatedAt = new DateTime(2020, 10, 26, 23, 13, 36, 926, DateTimeKind.Local).AddTicks(665),
+                            CreatedBy = "hmuftic",
                             RoleId = 2,
                             UserId = 2
                         });

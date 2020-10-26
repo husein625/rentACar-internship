@@ -24,7 +24,7 @@ namespace Praksa.DAL
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
-            const string connectionString = "Server=.;Initial Catalog=rent_a_car-im;Integrated Security=true";
+            const string connectionString = "Server=.;Initial Catalog=rentACar;Integrated Security=true";
             optionsBuilder.UseSqlServer(connectionString);
             base.OnConfiguring(optionsBuilder);
 

@@ -11,6 +11,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Praksa.DAL;
+using Praksa.DAL.Repositories;
 using Praksa.Repositories.Repositories;
 
 namespace praksa_rent
@@ -31,6 +32,9 @@ namespace praksa_rent
             var connection = "Server=.;Initial Catalog=rent_a_car-im;Integrated Security=true";
             services.AddDbContext<RentDbContext>(options => options.UseSqlServer(connection));
             services.AddScoped<IUserRepository, UserRepository>();
+            services.AddScoped<ICarRepository, CarRepository>();
+            services.AddScoped<IContactRepository, ContactRepository>();
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

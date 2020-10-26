@@ -20,7 +20,7 @@ namespace Praksa.DAL.Configuration
                     Id=1,
                     Name="Tuzla",
                     CreatedAt=DateTime.UtcNow,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 },
                 new City
@@ -28,7 +28,7 @@ namespace Praksa.DAL.Configuration
                     Id=2,
                     Name="Sarajevo",
                     CreatedAt=DateTime.UtcNow,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 },
                 new City
@@ -36,7 +36,7 @@ namespace Praksa.DAL.Configuration
                     Id=3,
                     Name="Mostar",
                     CreatedAt=DateTime.UtcNow,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 },
 

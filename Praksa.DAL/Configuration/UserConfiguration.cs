@@ -22,16 +22,16 @@ namespace Praksa.DAL.Configuration
                 new User
                 {
                     Id=1,
-                    Name="Ajdin",
-                    Surname="Tabak",
+                    Name="Husein",
+                    Surname="Muftic",
                     CityId=1,
-                    DatOfBirth=new DateTime(1998,07,27),
-                    Email="tabakajdin@gmail.com",
-                    Address="IM 27",
-                    Username="ajdintbk",
-                    Password="ajdin123",
+                    DatOfBirth=new DateTime(1998,10,25),
+                    Email="hmuftic@gmail.com",
+                    Address="Odred Sretno 2",
+                    Username="hmuftic",
+                    Password="123123",
                     CreatedAt=DateTime.UtcNow,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 },
                 new User
@@ -46,7 +46,7 @@ namespace Praksa.DAL.Configuration
                     Username="johne",
                     Password="john123",
                     CreatedAt=DateTime.UtcNow,
-                    CreatedBy="ajdintbk",
+                    CreatedBy="hmuftic",
 
                 }
 
